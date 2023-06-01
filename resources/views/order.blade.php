@@ -1,5 +1,5 @@
 @extends('navbar')
-@section('title','page sample')
+@section('title','Order')
 
 @section('content')
     <h1>Isi form pemesanan</h1>

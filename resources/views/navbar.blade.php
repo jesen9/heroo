@@ -23,7 +23,7 @@
 <body>
     <div class="topnav" id="myTopnav">
     <a href="#jalanpagelink" class="active">JalanPage</a>
-    <a href="#Orderlink">Order</a>
+    <a href="/order">Order</a>
     <a href="#TestimoniLink">Testimoni</a>
     <a href="#ContactLink">Contact</a>
     <a href="#AboutLink">About</a>

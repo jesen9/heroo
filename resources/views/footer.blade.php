@@ -26,4 +26,6 @@
         <div class="w-full flex justify-center border-t-2 border-white border-solid">
             <p class="text-white font-semibold text-xl">Copyright 2023 JalanPage</p>
         </div>
-</footer>
+    </footer>
+</body>
+</html>

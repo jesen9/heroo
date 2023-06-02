@@ -1,3 +1,4 @@
+@extends('header2')
 <section class="bg-zinc-900 flex flex-col ">
     <div class="bg-[#0078e7] flex justify-center">
         <div class="flex flex-col sm:flex-row p-10 md:py-10 lg:w-[1000px] xl:w-[1200px]">
@@ -59,3 +60,4 @@
         </div>
     </div>
 </section>
+@extends('footer')

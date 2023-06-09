@@ -1,4 +1,4 @@
-@extends('header2')
+@include('header2')
 <section class="max-w-3xl mx-auto px-4 py-8">
     <div class="space-y-8">
         <div class="bg-white shadow-lg rounded-lg overflow-hidden">
@@ -92,4 +92,4 @@
         </div>
     </div>
 </section>
-@extends('footer')
+@include('footer')

@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('page');
+    return view('index');
 });
 
 Route::get('/login', function () {
@@ -30,6 +30,18 @@ Route::get('/register', function () {
 
 Route::get('/order', function () {
     return view('order');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/testimoni', function () {
+    return view('testimonial');
 });
 
 Route::post('/register', [UserController::class, 'createUser']);

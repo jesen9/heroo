@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./
+    container_name: laravel-app
+    # volumes:
+      # - .:/var/www/html
+    ports:
+      - "8082:80"
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true

@@ -1,93 +1,157 @@
 @include('header2')
-<section class="max-w-3xl mx-auto px-4 py-8">
-    <div class="space-y-8">
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <div class="px-6 py-4">
-                <div class="flex items-center mb-4">
-                    <div class="h-12 w-12 bg-gray-300 rounded-full"></div>
-                    <div class="ml-4">
-                        <h4 class="text-lg font-semibold mb-2">John Doe</h4>
-                        <div class="flex items-center">
-                            <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffb800" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L15.09 8.58L22 9.82L17 14.1L18.18 21L12 17.77L5.82 21L7 14.1L2 9.82L8.91 8.58L12 2Z" />
-                            </svg>
-                            <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffb800" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L15.09 8.58L22 9.82L17 14.1L18.18 21L12 17.77L5.82 21L7 14.1L2 9.82L8.91 8.58L12 2Z" />
-                            </svg>
-                            <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffb800" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L15.09 8.58L22 9.82L17 14.1L18.18 21L12 17.77L5.82 21L7 14.1L2 9.82L8.91 8.58L12 2Z" />
-                            </svg>
-                        </div>
+<section class="bg-[#0078e7] flex flex-col ">
+
+    <div class="flex justify-center flex-col mt-16">
+        <div class="flex justify-center">
+            <h1 class="text-white text-5xl font-bold">Tentang JalanPage</h1>
+        </div>
+
+        <div class="bg-[#0078e7] bg-gradient-to-br from-[#aadbff] flex justify-center my-4">
+            <div class="flex flex-col-reverse md:flex-row p-10 md:py-10 lg:w-[1000px] xl:w-[1200px]">
+                <div class="drop-shadow-[3px_3px_5px_rgba(0,0,0,0.50)] flex justify-center items-center md:w-1/2">
+                    <div class="aspect-[33/19] w-full bg-slate-600">
+                        <!-- replace this with <img> tag -->
                     </div>
                 </div>
-                <p class="text-gray-700 text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac tortor auctor, efficitur lorem id, dignissim urna.</p>
-                <button class="flex items-center mt-4 text-sm font-medium text-blue-500 hover:text-blue-600">
-                    <svg class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                    </svg>
-                    Membantu
-                </button>
+                <div class="flex flex-col md:justify-center md:w-1/2 md:ml-8 lg:ml-16">
+                    <p class="text-white text-2xl font-semibold py-4 pb-8 md:text-end" >
+                        JalanPage memahami betapa pentingnya tampilan yang menarik, kecepatan loading yang cepat, 
+                        dan responsivitas yang baik dalam sebuah landing page. Oleh karena itu, kami menggunakan 
+                        teknologi terkini dan alat-alat terbaik untuk memastikan bahwa setiap landing page yang 
+                        kami buat memenuhi standar kualitas yang tinggi.
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <div class="px-6 py-4">
-                <div class="flex items-center mb-4">
-                    <div class="h-12 w-12 bg-gray-300 rounded-full"></div>
-                    <div class="ml-4">
-                        <h4 class="text-lg font-semibold mb-2">Jane Smith</h4>
-                        <div class="flex items-center">
-                            <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffb800" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L15.09 8.58L22 9.82L17 14.1L18.18 21L12 17.77L5.82 21L7 14.1L2 9.82L8.91 8.58L12 2Z" />
-                            </svg>
-                            <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffb800" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L15.09 8.58L22 9.82L17 14.1L18.18 21L12 17.77L5.82 21L7 14.1L2 9.82L8.91 8.58L12 2Z" />
-                            </svg>
-                        </div>
+        <div class="bg-[#0078e7] bg-gradient-to-tl from-[#aadbff] flex justify-center mt-4">
+            <div class="flex flex-col-reverse md:flex-row p-10 md:py-10 lg:w-[1000px] xl:w-[1200px]">
+                <div class="flex flex-col md:justify-center md:w-1/2 md:mr-8 lg:mr-16">
+                    <p class="text-white text-2xl font-semibold py-4 pb-8" >
+                        Selain itu, kami juga menawarkan konsultasi dan rekomendasi untuk membantu Anda memilih 
+                        desain dan struktur yang paling cocok dengan tujuan bisnis Anda. Kami percaya bahwa setiap 
+                        bisnis memiliki keunikan dan kebutuhan yang berbeda, sehingga kami berusaha untuk memberikan 
+                        solusi yang disesuaikan dan mendukung pertumbuhan bisnis anda.
+                    </p>
+                </div>
+                <div class="drop-shadow-[3px_3px_5px_rgba(0,0,0,0.50)] flex justify-center items-center md:w-1/2">
+                    <div class="aspect-[33/19] w-full bg-slate-600">
+                        <!-- replace this with <img> tag -->
                     </div>
                 </div>
-                <p class="text-gray-700 text-sm leading-relaxed">In euismod sodales diam, at porttitor turpis luctus ut. Suspendisse feugiat lorem a nunc suscipit porttitor.</p>
-                <button class="flex items-center mt-4 text-sm font-medium text-blue-500 hover:text-blue-600">
-                    <svg class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                    </svg>
-                    Membantu
-                </button>
             </div>
         </div>
+    </div>
 
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <div class="px-6 py-4">
-                <div class="flex items-center mb-4">
-                    <div class="h-12 w-12 bg-gray-300 rounded-full"></div>
-                    <div class="ml-4">
-                        <h4 class="text-lg font-semibold mb-2">Sarah Johnson</h4>
-                        <div class="flex items-center">
-                            <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffb800" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L15.09 8.58L22 9.82L17 14.1L18.18 21L12 17.77L5.82 21L7 14.1L2 9.82L8.91 8.58L12 2Z" />
-                            </svg>
-                            <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffb800" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L15.09 8.58L22 9.82L17 14.1L18.18 21L12 17.77L5.82 21L7 14.1L2 9.82L8.91 8.58L12 2Z" />
-                            </svg>
-                            <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffb800" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L15.09 8.58L22 9.82L17 14.1L18.18 21L12 17.77L5.82 21L7 14.1L2 9.82L8.91 8.58L12 2Z" />
-                            </svg>
-                            <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffb800" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L15.09 8.58L22 9.82L17 14.1L18.18 21L12 17.77L5.82 21L7 14.1L2 9.82L8.91 8.58L12 2Z" />
-                            </svg>
+    <div class="flex justify-center flex-col mt-16">
+        <div class="flex justify-center">
+            <h1 class="text-white text-5xl font-bold">Kenapa JalanPage?</h1>
+        </div>
+        <div class="bg-[#0078e7] bg-gradient-to-tl from-[#aadbff] flex justify-center my-4">
+            <div class="p-10 flex flex-col justify-center items-center lg:w-[1000px] xl:w-[1200px]">
+                <div class="flex flex-col md:flex-row">
+                    <div class="flex items-center flex-col text-center py-4 sm:py-8 md:w-1/3 md:mr-8">
+                        <div class="aspect-square w-[50px] md:w-[75px] bg-slate-600"></div>
+                        <h1 class="text-white text-3xl font-semibold pt-2 pb-8" >Jaminan Kerja</h1>
+                        <p class="text-white text-lg font-medium">Uang Anda Akan Kami Lindungi, dan Freelancer Akan Mulai Bekerja Mengerjakan Project Anda.</p>
+                    </div>
+                    <div class="flex items-center flex-col text-center py-4 sm:py-8 md:w-1/3 md:mx-8">
+                        <div class="aspect-square w-[50px] md:w-[75px] bg-slate-600"></div>
+                        <h1 class="text-white text-3xl font-semibold pt-2 pb-8" >Tersedia Freelancer</h1>
+                        <p class="text-white text-lg font-medium">Lebih dari 150.000 Freelancers Siap Untuk Mengerjakan Project Anda Sampai Seleasai.</p>
+                    </div>
+                    <div class="flex items-center flex-col text-center py-4 sm:py-8 md:w-1/3 md:ml-8">
+                        <div class="aspect-square w-[50px] md:w-[75px] bg-slate-600"></div>
+                        <h1 class="text-white text-3xl font-semibold pt-2 pb-8" >Top Freelancers</h1>
+                        <p class="text-white text-lg font-medium">Freelancer Telah Melalui Seleksi Dan Proses Verifikasi Dari FastWork.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center flex-col mt-16">
+        <div class="flex justify-center">
+            <h1 class="text-white text-5xl font-bold">JalanPage Menyediakan Layanan?</h1>
+        </div>
+        <div class="bg-[#0078e7] bg-gradient-to-tl from-[#aadbff] flex justify-center my-4">
+            <div class="p-10 flex flex-col justify-center items-center lg:w-[1000px] xl:w-[1200px]">
+                <div class="flex flex-col md:flex-row">
+                    <div class="flex items-center flex-col text-center py-4 sm:py-8 md:w-1/3 md:mr-8">
+                        <div class="aspect-square w-[50px] md:w-[75px] bg-slate-600"></div>
+                        <h1 class="text-white text-3xl font-semibold pt-2 pb-8" >24/7</h1>
+                        <p class="text-white text-lg font-medium">Layanan 24 Jam Siap Membantu Anda Apabila Terjadi Kesulitan.</p>
+                    </div>
+                    <div class="flex items-center flex-col text-center py-4 sm:py-8 md:w-1/3 md:mx-8">
+                        <div class="aspect-square w-[50px] md:w-[75px] bg-slate-600"></div>
+                        <h1 class="text-white text-3xl font-semibold pt-2 pb-8" >Uang Kembali</h1>
+                        <p class="text-white text-lg font-medium">Garansi Uang Kembali Dalam Kurung Waktu 30 Hari Apabila Customer Kurang Puas Dengan Layanan JalanPage.</p>
+                    </div>
+                    <div class="flex items-center flex-col text-center py-4 sm:py-8 md:w-1/3 md:ml-8">
+                        <div class="aspect-square w-[50px] md:w-[75px] bg-slate-600"></div>
+                        <h1 class="text-white text-3xl font-semibold pt-2 pb-8" >Keamanan Transaksi</h1>
+                        <p class="text-white text-lg font-medium">Keamanan Transaksi Dijamin Aman, Dengan Banyak Pilihan Pembayaran.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[#0078e7] flex justify-center">
+        <div class="flex flex-col justify-center items-center p-10 md:py-10 md:pb-24 lg:w-[1000px] xl:w-[1200px]">
+            <h1 class="text-white text-4xl font-semibold py-4">Pertanyaan Seputar JalanPage</h1>
+            <div x-data="{ open: null }" class="space-y-8 mt-6">
+
+                <div class="relative">
+                    <div class="bg-white shadow-md rounded-md px-5 py-3 duration-300">
+                        <div @click="open === 1 ? open = null : open = 1"
+                            class="flex items-center cursor-pointer">
+                            <span class="font-semibold text-gray-700">Apa Itu Landing Page</span>
+                            <span x-text="open === 1 ? '-' : '+'" class="ml-auto text-gray-700"></span>
+                        </div>
+                        <div
+                        :class="{ 'h-16 px-0 py-0':open === 1}"
+                        class="overflow-hidden bg-white shadow-md rounded-md duration-300 h-0 pointer-events-none">
+                            <div>
+                                <p class="text-gray-700 px-4 py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu tincidunt odio, id pulvinar dui. Nulla viverra varius efficitur. Proin consectetur pharetra nibh, vel ultrices turpis bibendum sed.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <p class="text-gray-700 text-sm leading-relaxed">Vestibulum commodo, velit at varius efficitur, metus nunc ullamcorper felis, vitae facilisis dui magna sit amet mauris.</p>
-                <button class="flex items-center mt-4 text-sm font-medium text-blue-500 hover:text-blue-600">
-                    <svg class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                    </svg>
-                    Membantu
-                </button>
+
+                <div class="relative">
+                    <div class="bg-white shadow-md rounded-md px-5 py-3 duration-300">
+                        <div @click="open === 2 ? open = null : open = 2"
+                            class="flex items-center cursor-pointer">
+                            <span class="font-semibold text-gray-700">Kenapa Saya Harus Menggunakan Jasa JalanPage</span>
+                            <span x-text="open === 2 ? '-' : '+'" class="ml-auto text-gray-700"></span>
+                        </div>
+                        <div
+                        :class="{ 'h-16 px-0 py-0':open === 2}"
+                        class="overflow-hidden bg-white shadow-md rounded-md duration-300 h-0 pointer-events-none">
+                            <div>
+                                <p class="text-gray-700 px-4 py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu tincidunt odio, id pulvinar dui. Nulla viverra varius efficitur. Proin consectetur pharetra nibh, vel ultrices turpis bibendum sed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="bg-white shadow-md rounded-md px-5 py-3 duration-300">
+                        <div @click="open === 3 ? open = null : open = 3"
+                            class="flex items-center cursor-pointer">
+                            <span class="font-semibold text-gray-700">Apakah Ada Kendala Kedepannya, Jalan Page Siap Membantu Saya?</span>
+                            <span x-text="open === 3 ? '-' : '+'" class="ml-auto text-gray-700"></span>
+                        </div>
+                        <div
+                        :class="{ 'h-16 px-0 py-0':open === 3}"
+                        class="overflow-hidden bg-white shadow-md rounded-md duration-300 h-0 pointer-events-none">
+                            <div>
+                                <p class="text-gray-700 px-4 py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu tincidunt odio, id pulvinar dui. Nulla viverra varius efficitur. Proin consectetur pharetra nibh, vel ultrices turpis bibendum sed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

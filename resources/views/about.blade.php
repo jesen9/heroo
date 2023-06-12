@@ -1,4 +1,5 @@
 @include('header2')
+@section('title','About JalanPage')
 <section class="bg-[#0078e7] flex flex-col ">
 
     <div class="flex justify-center flex-col mt-16">
@@ -15,9 +16,9 @@
                 </div>
                 <div class="flex flex-col md:justify-center md:w-1/2 md:ml-8 lg:ml-16">
                     <p class="text-white text-2xl font-semibold py-4 pb-8 md:text-end" >
-                        JalanPage memahami betapa pentingnya tampilan yang menarik, kecepatan loading yang cepat, 
-                        dan responsivitas yang baik dalam sebuah landing page. Oleh karena itu, kami menggunakan 
-                        teknologi terkini dan alat-alat terbaik untuk memastikan bahwa setiap landing page yang 
+                        JalanPage memahami betapa pentingnya tampilan yang menarik, kecepatan loading yang cepat,
+                        dan responsivitas yang baik dalam sebuah landing page. Oleh karena itu, kami menggunakan
+                        teknologi terkini dan alat-alat terbaik untuk memastikan bahwa setiap landing page yang
                         kami buat memenuhi standar kualitas yang tinggi.
                     </p>
                 </div>
@@ -28,9 +29,9 @@
             <div class="flex flex-col-reverse md:flex-row p-10 md:py-10 lg:w-[1000px] xl:w-[1200px]">
                 <div class="flex flex-col md:justify-center md:w-1/2 md:mr-8 lg:mr-16">
                     <p class="text-white text-2xl font-semibold py-4 pb-8" >
-                        Selain itu, kami juga menawarkan konsultasi dan rekomendasi untuk membantu Anda memilih 
-                        desain dan struktur yang paling cocok dengan tujuan bisnis Anda. Kami percaya bahwa setiap 
-                        bisnis memiliki keunikan dan kebutuhan yang berbeda, sehingga kami berusaha untuk memberikan 
+                        Selain itu, kami juga menawarkan konsultasi dan rekomendasi untuk membantu Anda memilih
+                        desain dan struktur yang paling cocok dengan tujuan bisnis Anda. Kami percaya bahwa setiap
+                        bisnis memiliki keunikan dan kebutuhan yang berbeda, sehingga kami berusaha untuk memberikan
                         solusi yang disesuaikan dan mendukung pertumbuhan bisnis anda.
                     </p>
                 </div>

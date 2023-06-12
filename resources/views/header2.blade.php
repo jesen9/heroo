@@ -24,11 +24,11 @@
 </head>
 <body>
     <div class="topnav" id="myTopnav">
-        <a href="#jalanpagelink" class="active">JalanPage</a>
+        <a href="/" class="active">JalanPage</a>
         <a href="/order">Order</a>
-        <a href="#TestimoniLink">Testimoni</a>
-        <a href="#ContactLink">Contact</a>
-        <a href="#AboutLink">About</a>
+        <a href="/testimoni">Testimoni</a>
+        <a href="/contact">Contact</a>
+        <a href="/about">About</a>
         @auth
             <a href="/logout" class="leftnav">Logout</a>
             <a href="" class="leftnav">{{\Illuminate\Support\Facades\Auth::user()->username}}</a>

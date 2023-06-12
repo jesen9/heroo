@@ -1,7 +1,6 @@
-@extends('navbar')
+@include('header2')
 @section('title','Order')
-
-@section('content')
+<section class="flex justify-center">
     <h1>Isi form pemesanan</h1>
     <form enctype="multipart/form-data" action="/order" method="POST">
         @csrf
@@ -46,4 +45,5 @@
         <br>
         <strong>{{session()->get('message')}}</strong>
     @endif
-@endsection
+</section>
+@include('footer')

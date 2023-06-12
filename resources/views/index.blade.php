@@ -1,4 +1,5 @@
 @include('header2')
+@section('title','JalanPage')
 <section class="bg-zinc-900 flex flex-col ">
     <div class="bg-[#0078e7] flex justify-center">
         <div class="flex flex-col sm:flex-row p-10 md:py-10 lg:w-[1000px] xl:w-[1200px]">
@@ -33,7 +34,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="bg-[#0078e7] flex justify-center">
         <div class="p-10 flex flex-col justify-center items-center lg:w-[1000px] xl:w-[1200px]">
             <h1 class="text-white text-2xl font-bold py-2 pb-8">Kenapa JalanPage?</h1>

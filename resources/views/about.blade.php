@@ -73,7 +73,7 @@
 
     <div class="flex justify-center flex-col mt-16">
         <div class="flex justify-center">
-            <h1 class="text-white text-5xl font-bold">JalanPage Menyediakan Layanan?</h1>
+            <h1 class="text-white text-5xl font-bold">JalanPage Menyediakan Layanan</h1>
         </div>
         <div class="bg-[#0078e7] bg-gradient-to-tl from-[#aadbff] flex justify-center my-4">
             <div class="p-10 flex flex-col justify-center items-center lg:w-[1000px] xl:w-[1200px]">
